@@ -1,0 +1,16 @@
+2021-06-04 10:10:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "CARD" не найдена
+Table "CARD" not found; SQL statement:
+insert into card (cardnumber, accountnumber) values (?, ?) [42102-199]
+2021-06-04 10:10:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "CARD" не найдена
+Table "CARD" not found; SQL statement:
+insert into card (cardnumber, accountnumber) values (?, ?) [42102-199]
+2021-06-04 10:11:05 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "CARD" не найдена
+Table "CARD" not found; SQL statement:
+select * from card where accountNumber = ? [42102-199]
+2021-06-04 10:11:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "BANKACCOUNT" не найдена
+Table "BANKACCOUNT" not found; SQL statement:
+select * from bankaccount where accountNumber = ? [42102-199]
